@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+/*"Playwrite NO"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+/*"Wittgenstein"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+/*"Roboto"*/
+
+
+/*Gerais
+-----------*/
+
+/*Classes
+-------------*/
+.rosa{
+    color: #FF859B;
+}
+
+.caixa_servico{
+    border: 2px solid #D94E67;
+    border-radius: 20px;
+    height: 530px;
+}
+
+/*Nav
+-----------*/
+nav{
+    background-color: #D94E67;
+}
+
+nav a{
+    color: white;
+    font-family: "Wittgenstein", serif;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav button.btn{
+    color: black;
+    padding: 10px 25px;
+    border-radius: 20px;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+/*Topo
+------------*/
+#topo{
+    height: 675px;
+    background-image: url(../img/Fundo_Topo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+#topo h1{
+    color: white;
+    width: 600px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    
+    line-height: 68px;
+    font-size: 43px;
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#topo p{
+    color: white;
+    width: 500px;
+    line-height: 35px;
+
+    font-size: 1.8em;
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+
+/*Sobre
+------------*/
+#sobre{
+    height: 650px;
+}
+
+#sobre h1{
+    color: #8A4312;
+    text-align: center;
+
+    padding: 60px 0;
+    
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#sobre h2{
+    color: #8A4312;
+    
+    font-size: 40px;
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#sobre p{
+    color: #847e7e;
+
+    font-size: 1em;
+    font-weight: 600;
+    font: "Roboto", sans-serif;
+}
+
+/*Sobremesas
+------------*/
+#sobremesas{
+    height: 1230px;
+}
+
+#sobremesas h1{
+    color: #8A4312;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#sobremesas img{
+    border: 5px solid #D94E67;
+    border-radius: 20px;
+}
+
+/*Serviços
+----------------*/
+#servicos{
+    height: 900px;
+}
+
+#servicos h1{
+    color: #8A4312;
+    text-align: center;
+    padding-bottom: 10px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#servicos h2{
+    color: #D94E67;
+    text-align: center;
+    padding-bottom: 50px;
+
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+#servicos p{
+    color: #847e7e;
+    text-align: center;
+    padding-top: 20px;
+
+    font-size: 1em;
+    font-weight: 600;
+    font: "Roboto", sans-serif;
+}
+
+#servicos .d-flex h1{
+    font-size: 24px;
+    line-height: 26px;
+}
+
+/*Contato
+----------------*/
+#contato{
+    height: 800px;
+}
+
+#contato h1{
+    color: #8A4312;
+    text-align: center;
+    padding-bottom: 10px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bold;
+}
+
+#contato h2{
+    color: #D94E67;
+    text-align: center;
+    padding-bottom: 50px;
+
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+#contato h3{
+    color: #8A4312;
+    padding-bottom: 10px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bolder;
+}
+
+#contato p{
+    color: #8A4312;
+    font-size: 1.2em;
+
+    margin-bottom: 5px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bolder;
+}
+
+#contato input.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #fb95a8;
+    border-radius: 20px;
+}
+
+#contato textarea.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #fb95a8;
+    border-radius: 20px;
+}
+
+#contato button.btn{
+    color: white;
+    background-color: #D94E67;
+    border-radius: 20px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #fb95a8;
+}
+
+/*Links
+----------*/
+#links{
+    height: 750px;
+    padding-top: 100px;
+    background-color: #8B4513;
+}
+
+#links h1{
+    color: white;
+    padding-bottom: 10px;
+
+    font-size: 32px;
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+#links h2{
+    color: white;
+    text-align: center;
+
+    padding-top: 15px;
+    font-size: 24px;
+
+    font-family: "Wittgenstein", serif;
+    font-weight: bold;
+}
+
+#links ul li{
+    color: white;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+#links a{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#links a:hover{
+    color: yellow;
+}
+
+#links p{
+    color: white;
+    font-size: 1.2em;
+
+    margin-bottom: 5px;
+    
+    font-family: "Playwrite NO";
+    font-weight: bolder;
+}
+
+#links input.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #8C4014;
+    border-radius: 20px;
+}
+
+#links textarea.form-control{
+    margin-bottom: 15px;
+    border: 1px solid #8C4014;
+    border-radius: 20px;
+}
+
+#links button.btn{
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #fb95a8;
+}
+
+/*Rodape
+------------*/
+footer{
+    color: white;
+    height: 60px;
+    background-color: #5c290b;
+    padding-top: 20px;
+    
+    text-align: center;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+footer a{
+    color: #fb95a8;
+}
+
+footer a:hover{
+    color: #D94E67;
+}

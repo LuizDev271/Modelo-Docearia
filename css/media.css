@@ -1,0 +1,59 @@
+@media (max-width: 575.98px){
+
+    #topo{
+        display: none;
+    }
+    
+    #sobre{
+        height: 1100px;
+    }
+
+    #sobre h2{
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    #sobre p{
+        padding: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    #sobremesas{
+        height: 1275px;
+    }
+    
+    #servicos{
+        height: 1800px;
+    }
+    
+    #contato{
+        padding-top: 70px;
+        height: 950px;
+    }
+
+    #contato form{
+        margin-left: 80px;
+    }
+
+    #contato button.btn{
+        margin-left: 45px;
+    }
+    
+    #links{
+        padding-top: 50px;
+        height: 1000px;
+    }
+
+    #links h1{
+        padding-top: 30px;
+    }
+
+    #links h2{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 15px;
+        font-size: 14px;
+    }
+}
