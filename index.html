@@ -31,10 +31,10 @@
     <link rel="stylesheet" href="css/media.css">
 
 </head>
-<body>
+<body onscroll="aparecerServicos()">
 
     <header> <!--Nav-->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container col-10">
                 <img class="img-fluid navbar-brand" src="img/Logo.png" alt="">
 
@@ -48,16 +48,16 @@
                             <a href="#" class="nav-link">Inicio</a>
                         </li>
                         <li class="nav-item ml-3 mr-3">
-                            <a href="#" class="nav-link">Sobre</a>
+                            <a href="#sobre" class="nav-link">Sobre</a>
                         </li>
                         <li class="nav-item ml-3 mr-3">
-                            <a href="#" class="nav-link">Serviços</a>
+                            <a href="#sobremesas" class="nav-link">Portfólio</a>
                         </li>
                         <li class="nav-item ml-3 mr-3">
-                            <a href="#" class="nav-link">Portfólio</a>
+                            <a href="#servicos" class="nav-link">Serviços</a>
                         </li>
                         <li class="nav-item ml-3 mr-3">
-                            <a href="#" class="nav-link">Contato</a>
+                            <a href="#contato" class="nav-link">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -93,32 +93,32 @@
     </section>
 
     <section id="sobremesas"> <!--Doces-->
-        <div class="container">
+        <div id="caixas-de-doces" class="container">
             <h1 class="col-12">Algumas <span class="rosa">sobremesas</span> que eu faço...</h1>
-            <div class="d-flex justify-content-center mt-5 mb-5 doces">
+            <div class="d-flex justify-content-center mt-5 mb-5 doces invis doces-caixa">
                 <div class="col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_1.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_1.png" alt="sobremesas">
                 </div>
                 <div class="d-none d-md-block col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_2.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_2.png" alt="sobremesas">
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center mt-5 mb-5 doces">
+            <div class="d-flex justify-content-center mt-5 mb-5 doces invis doces-caixa">
                 <div class="col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_3.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_3.png" alt="sobremesas">
                 </div>
                 <div class="d-none d-md-block col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_4.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_4.png" alt="sobremesas">
                 </div>
             </div>
 
-            <div class="d-flex justify-content-center mt-5 mb-5 doces">
+            <div class="d-flex justify-content-center mt-5 mb-5 doces invis doces-caixa">
                 <div class="col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_5.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_5.png" alt="sobremesas">
                 </div>
                 <div class="d-none d-md-block col-md-4 mr-5 ml-5">
-                    <img class="img-fluid" src="img/Doce/Doce_6.png" alt="">
+                    <img class="img-fluid" src="img/Doce/Doce_6.png" alt="sobremesas">
                 </div>
             </div>
         </div>
@@ -128,29 +128,29 @@
         <div class="container">
             <h1 class="col-12">Serviços</h1>
             <h2>Minhas especialidades</h2>
-            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
-                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico">
+            <div id="caixas" class="d-flex flex-column flex-md-row justify-content-center align-items-center ">
+                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico invis">
                     <div class="d-flex flex-column align-items-center">
                         <img class="img-fluid mt-3 mb-3" src="img/Desenhos/Desenho_1.png" alt="">
                         <h1>Doces para eventos</h1>
                         <p>Serviços de doces para ocasiões especiais, como casamentos, festas de aniversário e eventos corporativos, com um menu personalizado de sobremesas temática.</p>
                     </div>
                 </div>
-                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico">
+                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico invis">
                     <div class="d-flex flex-column align-items-center">
                         <img class="img-fluid mt-3 mb-3" src="img/Desenhos/Desenho_2.png" alt="">
                         <h1>Encomendas de Sobremesas</h1>
                         <p>Aceito encomendas de sobremesas personalizadas para eventos e comemorações especiais, criando doces únicos e saborosos.</p>
                     </div>
                 </div>
-                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico">
+                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico invis">
                     <div class="d-flex flex-column align-items-center">
                         <img class="img-fluid mt-3 mb-3" src="img/Desenhos/Desenho_3.png" alt="">
                         <h1>Workshops de Confeitaria</h1>
                         <p>Ministsrar workshops e aulas de confeitaria para ensinar aos participantes como preparar deliciosas sobremesas em casa.</p>
                     </div>
                 </div>
-                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico">
+                <div class="col-10 col-md-2 ml-4 mr-4 mb-5 caixa_servico invis">
                     <div class="d-flex flex-column align-items-center">
                         <img class="img-fluid mt-3 mb-3" src="img/Desenhos/Desenho_4.png" alt="">
                         <h1>Consultoria em Confeitaria</h1>
@@ -305,6 +305,8 @@
     <footer> <!--Rodape-->
         Copyright &copy; 2024 | Todos Direitos Reservados | Feito pelo <a href="https://www.instagram.com/devluizsilva" target="_blank">Desenvolvedor Luiz Silva</a>
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>

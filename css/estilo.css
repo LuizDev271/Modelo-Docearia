@@ -7,9 +7,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
 /*"Roboto"*/
 
+*{
+    padding: 0;
+    margin: 0;
+    transition: 0.8s linear;
+}
 
-/*Gerais
------------*/
+html{
+    scroll-behavior: smooth;
+}
+
 
 /*Classes
 -------------*/
@@ -52,6 +59,8 @@ nav button.btn{
 ------------*/
 #topo{
     height: 675px;
+    margin-top: 75px;
+
     background-image: url(../img/Fundo_Topo.png);
     background-position: center;
     background-size: cover;
@@ -85,6 +94,7 @@ nav button.btn{
 ------------*/
 #sobre{
     height: 650px;
+    padding-top: 50px;
 }
 
 #sobre h1{
@@ -117,6 +127,19 @@ nav button.btn{
 ------------*/
 #sobremesas{
     height: 1230px;
+    padding-top: 90px;
+}
+
+#sobremesas #caixas-de-doces :nth-child(2){
+    transition-delay: 300ms;
+}
+
+#sobremesas #caixas-de-doces :nth-child(3){
+    transition-delay: 800ms;
+}
+
+#sobremesas #caixas-de-doces :nth-child(4){
+    transition-delay: 1400ms;
 }
 
 #sobremesas h1{
@@ -137,6 +160,7 @@ nav button.btn{
 ----------------*/
 #servicos{
     height: 900px;
+    padding-top: 90px;
 }
 
 #servicos h1{
@@ -172,10 +196,27 @@ nav button.btn{
     line-height: 26px;
 }
 
+#servicos #caixas :nth-child(1){
+    transition-delay: 300ms;
+}
+
+#servicos #caixas :nth-child(2){
+    transition-delay: 800ms;
+}
+
+#servicos #caixas :nth-child(3){
+    transition-delay: 1400ms;
+}
+
+#servicos #caixas :nth-child(4){
+    transition-delay: 1900ms;
+}
+
 /*Contato
 ----------------*/
 #contato{
     height: 800px;
+    padding-top: 90px;
 }
 
 #contato h1{
@@ -341,4 +382,16 @@ footer a{
 
 footer a:hover{
     color: #D94E67;
+}
+
+/*Classes Animações JavaScript
+-------------------------------*/
+.invis{
+    opacity: 0;
+    filter: opacity(0px);
+}
+
+.visi{
+    opacity: 1;
+    filter: opacity(200px);
 }
