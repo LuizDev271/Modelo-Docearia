@@ -13,7 +13,7 @@
 </div>
 
 # Sobre o Modelo
- Projeto individual, Modelo de Site Responsivo de Barbeira, criado a base de HTML5, CSS3, Bootstrap e JavaScript, abrangendo recursos como Flex-Box, Media Queries, Barra de Navegação Líquida, Imagens com resoluções Fluídas, entre outros recursos.
+ Projeto individual, Modelo de Site Responsivo de Docerias, criado a base de HTML5, CSS3, Bootstrap e JavaScript, abrangendo recursos como Flex-Box, Media Queries, Barra de Navegação Líquida, Imagens com resoluções Fluídas, entre outros recursos.
 (Disponível em Monitores de PC, Smartphones)
 
 
