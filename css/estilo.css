@@ -10,13 +10,29 @@
 *{
     padding: 0;
     margin: 0;
-    transition: 0.8s linear;
+    transition: 0.4s linear;
 }
 
 html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #5c290b;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D94E67;
+}
+
+input.form-control:focus{
+    box-shadow: 0 0 10px 1px #D94E67;
+}
+
+textarea.form-control:focus{
+    box-shadow: 0 0 10px 1px #D94E67;
+}
 
 /*Classes
 -------------*/
@@ -154,6 +170,16 @@ nav button.btn{
 #sobremesas img{
     border: 5px solid #D94E67;
     border-radius: 20px;
+}
+
+#sobremesas img:target{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#sobremesas img:hover{
+    transform: scale(1.05);
 }
 
 /*Serviços
